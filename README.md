@@ -6,9 +6,9 @@ A hands-on, tutorial-driven project for experimenting with various Stable Diffus
 
 | Notebook | Description |
 |----------|-------------|
-| [`01_txt2img_tutorial.ipynb`](./txt2img_tutorial.ipynb) | Generate images from text prompts |
-| [`02_inpainting_tutorial.ipynb`](./inpainting_tutorial.ipynb) | Modify masked image areas using prompts |
-| [`03_img2img_tutorial.ipynb`](./img2img_tutorial.ipynb) | Transform images using guiding prompts |
+| [`01_txt2img_tutorial.ipynb`](./notebooks/txt2img_tutorial.ipynb) | Generate images from text prompts |
+| [`02_inpainting_tutorial.ipynb`](./notebooks/inpainting_tutorial.ipynb) | Modify masked image areas using prompts |
+| [`03_img2img_tutorial.ipynb`](./notebooks/img2img_tutorial.ipynb) | Transform images using guiding prompts |
 
 ---
 
