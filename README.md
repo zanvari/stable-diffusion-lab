@@ -33,28 +33,38 @@ A hands-on, tutorial-driven project for experimenting with various Stable Diffus
 
 ---
 
-## 🧰 Requirements
+## 🖥️ App Interfaces
 
+| App | File | Description |
+|-----|------|-------------|
+| Gradio | [`app/gradio_app.py`](./app/gradio_app.py) | Launches a Gradio web UI for text-to-image generation |
+| Streamlit | [`app/streamlit_app.py`](./app/streamlit_app.py) | Launches a Streamlit app with prompt input and image output |
+
+To run locally:
 ```bash
-pip install diffusers transformers accelerate safetensors Pillow matplotlib
+# Gradio
+python app/gradio_app.py
+
+# Streamlit
+streamlit run app/streamlit_app.py
 ```
 
 ---
 
-## 📸 Example Output
+## 🧰 Requirements
 
-You can generate outputs using the tutorials and save them to the `outputs/` folder or visualize directly in notebooks.
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 ## 🧠 Author
 
-
-Developed as part of the `llm-lab` GenAI tutorial series by ****Zahra Anvari****. Contributions welcome!
+By **Zahra Anvari**
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it with attribution.
-
